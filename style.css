@@ -12,6 +12,7 @@ body {
     margin: 0;
     background-color: black;
     font-family: "Centurygothic";
+    overflow-x: hidden;
 }
 
 @media only screen and (max-width: 600px) {
@@ -179,6 +180,18 @@ body {
     .cub {
         display: none;
     }
+
+    .zap1 {
+        font-size: 64px;
+        font-family: 'CenturygothicBold';
+        color: #ffffff;
+        margin: 0;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 6.4px;
+    }
 }
 
 .rocketw {
@@ -211,6 +224,19 @@ body {
     margin-top: 1.5em;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 600px) {
+    .btn_accent[data-v-72346f60] {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        min-width: 300px;
+        margin-top: 1.5em;
+        overflow: hidden;
+    }
+}
+
 .btn_xs[data-v-72346f60] {
     font-size: 1.12rem;
     line-height: 1.4rem;
@@ -234,6 +260,17 @@ button {
     background: rgba(0,0,0,0);
     appearance: none;
     outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        border: 0;
+        text-transform: none;
+        background: rgba(0,0,0,0);
+
+        appearance: none;
+        outline: none;
+    }
 }
 
 .btn_accent span[data-v-72346f60] {
