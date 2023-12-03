@@ -113,6 +113,13 @@ body {
     margin-left: 45rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .usl {
+        display: none;
+        margin-left: 45rem;
+    }
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -817,4 +824,3 @@ from {
     align-items: center;
     justify-content: center;
 }
-
