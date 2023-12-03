@@ -89,6 +89,7 @@ body {
         list-style: none;
         padding-left: 1rem;
     }
+
   }
 
 .smm {
@@ -118,6 +119,18 @@ body {
         display: none;
         margin-left: 45rem;
     }
+
+    .smm {
+        font-size: 30px;
+        font-family: 'CenturygothicBold';
+        margin-left: 2rem;
+    }
+
+    .ico {
+        height: 40px;
+        width: 40px;
+    }
+
 }
 
 .container {
@@ -188,8 +201,19 @@ body {
         display: none;
     }
 
+    .zap {
+        font-size: 40px;
+        font-family: 'Centurygothic';
+        color: #ffffff;
+        margin: 0;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
     .zap1 {
-        font-size: 64px;
+        font-size: 50px;
         font-family: 'CenturygothicBold';
         color: #ffffff;
         margin: 0;
@@ -607,6 +631,15 @@ from {
     width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    .klients {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 130%;
+    }
+}
+
 .oniks {
     padding-bottom: 2rem;
     width: 11rem;
@@ -645,35 +678,30 @@ from {
         padding-bottom: 2rem;
         width: 11rem;
         height: auto;
-        padding-left: 10rem;
         padding-bottom: 3rem;
     }
     
     .bober {
         width: 11rem;
         height: auto;
-        padding-left: 10rem;
         padding-bottom: 3rem;
     }
     
     .bmw {
         width: 11rem;
         height: auto;
-        padding-left: 10rem;
         padding-bottom: 3rem;
     }
     
     .ktm {
         width: 11rem;
         height: auto;
-        padding-left: 10rem;
         padding-bottom: 3rem;
     }
     
     .kb {
         width: 13rem;
         height: auto;
-        padding-left: 10rem;
         padding-bottom: 3rem;
     }
 }
@@ -691,6 +719,7 @@ from {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-inline-start: 110px;
 }
 
 @media only screen and (max-width: 600px) {
