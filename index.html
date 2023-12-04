@@ -18,9 +18,9 @@
         <li><img class='ico' src='files\rocket-xxl niga.png'></li>
         <li><p class="smm">smmrocket</p></li>
         <div class="usl">
-            <li><a>Услуги</a></li>
-            <li><a>Агентство</a></li>
-            <li><a>Контакты</a></li>
+            <li><a href="#targetSection" onclick="scrollToSection('yslugs')">Услуги</a></li>
+            <li><a href="#targetSection" onclick="scrollToSection('agents')">Агентство</a></li>
+            <li><a href="#targetSection" onclick="scrollToSection('conts')">Контакты</a></li>
         </div>
     </div>
 
@@ -28,7 +28,7 @@
         <div class="container">
             <h1 class="zap">Запустим бизнес в космос</h1>
             <h1 class="zap1">Как ракету</h1>
-            <button type="button" class="btn header__btn mobile-none btn_xs btn_accent btn_accent-active" data-v-72346f60="" data-v-c6b3f590="">
+            <button onclick="redirectToWindow()" type="submit" class="btn header__btn mobile-none btn_xs btn_accent btn_accent-active" data-v-72346f60="" data-v-c6b3f590="">
                 <span data-v-72346f60=""></span> 
                 <span data-v-72346f60=""></span> 
                 <span data-v-72346f60=""></span> 
@@ -43,7 +43,7 @@
         <img class="cub" src="files\kubik.png">
     </div>
 
-    <section class="services">
+    <section class="services" id="yslugs">
         <h2 class="servtitle">Услуги</h2>
         <ul class="serv">
             <li class="service">
@@ -60,6 +60,9 @@
                         Привлекаем только целевой трафик <br>
                         из разных каналов и делаем так, <br>
                         чтобы маркетинг заработал в синергии <br>и выполнял цели вашего бизнеса
+                        <br>
+                        <br>
+                        От 10 000 руб
                     </p>
                 </div>
             </li>
@@ -77,6 +80,10 @@
                         Создаём программное обеспечение <br>
                         и сервисы, разрабатываем интернет-магазины <br>
                         и мобильные приложения, которые выделят<br>вас на фоне конкурентов
+                        <br>
+                        <br>
+                        От 30 000 руб
+
                     </p>
                 </div>
             </li>
@@ -93,6 +100,9 @@
                     <p class="service__description" >
                         Развиваем визуальное сопровождение <br>
                         вашего бренда: от фирменного стиля <br>до motion-дизайна на сайте и в соцсетях
+                        <br>
+                        <br>
+                        От 15 000 руб.
                     </p>
                 </div>
             </li>
@@ -110,7 +120,7 @@
 
     </section>
 
-    <section class="roadmap">
+    <section class="roadmap" id="agents">
         <ul class="roadmap__list" >
             <li class="roadmap__item" id="grad1">
                 <svg width="120" height="130" fill="none" xmlns="http://www.w3.org/2000/svg" class="roadmap__number-icon">
@@ -164,7 +174,7 @@
         </ul>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="conts">
         <div class="footer__row" >
             <address class="footer__address" >
                 <a  class="footer__link footer__link_email">Вештемов Виталий</a><br>
@@ -186,6 +196,21 @@
         </div>
         <div class="footer__row footer__row_end" >
         </div>
+        
     </footer>
+
+    <script>
+        function redirectToWindow() {
+            window.location.href = "window.html";
+        }
+
+        function scrollToSection(sectionId) {
+    var targetSection = document.getElementById(sectionId);
+    if (targetSection) {
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+}
+    </script>
+
 </body>
 </html>
