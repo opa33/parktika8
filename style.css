@@ -675,10 +675,9 @@ from {
 
 @media only screen and (max-width: 600px) {
     .oniks {
-        padding-bottom: 2rem;
         width: 11rem;
         height: auto;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
     }
     
     .bober {
@@ -690,19 +689,19 @@ from {
     .bmw {
         width: 11rem;
         height: auto;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
     }
     
     .ktm {
         width: 11rem;
         height: auto;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
     }
     
     .kb {
         width: 13rem;
         height: auto;
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
     }
 }
 
